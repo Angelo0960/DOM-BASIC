@@ -1,2 +1,24 @@
 @import "tailwindcss";
 
+.card{
+    @apply w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700
+            transform transition duration-300 hover:scale-105 hover:shadow-xl cursor-pointer
+}
+
+.img-design{
+    @apply p-8 rounded-t-lg transition duration-300 hover:scale-110
+}
+
+.price{
+    @apply text-3xl font-bold text-gray-900 dark:text-white;
+}
+
+.button{
+    @apply text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none 
+         focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center 
+             dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+}
+
+.item_name{
+    @apply text-xl font-semibold tracking-tight text-gray-900 dark:text-white
+}
